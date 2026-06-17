@@ -19,21 +19,20 @@
 # it definitely doesn't belong on other types of devices (if it
 # does, use base_product.mk).
 $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
+$(call inherit-product, vendor/mosaic/mosaic.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
     AppStore \
-    Auditor \
-    Calendar \
     Camera \
     Contacts \
     DeskClock \
     ExactCalculator \
-    Gallery2 \
+    Glimpse \
     InfoApp \
     LatinIME \
     Music \
-    PdfViewerGOS \
+    PdfViewer \
     preinstalled-packages-platform-handheld-product.xml \
     SettingsIntelligence \
     SpeechServices \
