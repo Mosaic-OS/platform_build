@@ -23,7 +23,7 @@ $(call inherit-product, vendor/mosaic/mosaic.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    AppStore \
+    MosaicStore \
     Camera \
     Contacts \
     DeskClock \
