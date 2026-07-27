@@ -23,18 +23,16 @@ $(call inherit-product, vendor/mosaic/mosaic.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    AppStore \
-    Auditor \
-    Calendar \
+    MosaicStore \
     Camera \
     Contacts \
     DeskClock \
     ExactCalculator \
-    Gallery2 \
+    Glimpse \
     InfoApp \
     LatinIME \
     Music \
-    PdfViewerGOS \
+    PdfViewer \
     preinstalled-packages-platform-handheld-product.xml \
     SettingsIntelligence \
     SpeechServices \
